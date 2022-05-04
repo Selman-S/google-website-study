@@ -225,9 +225,11 @@ footer a {
     }
     #search input {
         width:260px;
+        background-color: white;
         
     }
     input[type="search"] {
         -webkit-appearance: none;
+        background-color: white;
      }
 }
