@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/gfavicon.png">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="./img/google_icon.png">
-    <title>Google</title>
-</head>
-<body>
-    <div class="top">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a class="appicon" href="#"><img src="./img/appicon.png"  alt="apps"></a>
-        <button class="sign-in-btn" type="button">Sign in</button>
-    </div>
-    <div class="main">
-        <img class="google-logo" src="./img/googlelogo.png" alt="google">
-        <div class="search">
-            <img class="search-icon" src="./img/search.png" alt="search" title="Search By Voice">
-            <input type="search" class="search-box" title="Search" placeholder="Search Google or Type a URL">
-            <a class="icon-1" href="#"><img src="./img/google_microphone.png" alt=""></a>
-            <a class="icon-2 "href="#"><img src="./img/search-by-image.svg" alt=""></a>
-        </div>
-        <div class="buttons">
-            <button class="btn">Google Search</button>
-            <button class="btn">I'm Feeling Lucky</button>
-        </div>
-        <p>Google offered in: <a href="#">Türkçe</a> </p>
-    </div>
-    <div class="bottom">
-        <div class="country">Turkey</div>
-        <div class="foot">
-            <ul class="foot-left">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertising</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">How Search works</a></li>
-                
-            </ul>
-            <ul class="foot-right">
-                <li><a href="#">Privacy</a></li>
-                <li><a href="#">Terms</a></li>
-                <li><a href="#">Settings</a></li>
-            </ul>
+    <title>Google-page</title>
+  </head>
+  <body>
+    <header>
+        <div id="top-left">
+            <a href="#">About</a>
+            <a href="#">Store</a>
 
         </div>
-    </div>
-</body>
+        <div id="top-right">
+            <div>
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+
+            </div>
+            <a href="#"><img src="./images/appicon.png" alt="" /> </a>
+            <div>
+                <a href="#" id="sign-in"><button>
+                    Sign in
+                </button> </a>
+
+            </div>
+        </div>
+
+    </header>
+    <main>
+      <img src="./images/googlelogo.png" alt="googlelogo" id="google" />
+      <div id="search-box">
+          <div id="search">
+              <img src="./images/search-icon.png" alt="magnify-icon" id="search-icon" />
+              <input type="search" name="search" id="search-input" />
+             
+             <a href="#">
+                 <img src="./images/tia.png" alt="keyboard" id="keyboard-icon" />
+
+             </a> 
+             <a href="#">
+                 <img src="./images/mic-icon.png" alt="mic-icon" width="14px" id="mic-icon"/>
+
+             </a>
+
+          </div>
+      </div>
+      <div id="search-buttons">
+          <button>
+            Google Search
+          </button>
+          <button>
+            I'm Feeling Lucky
+          </button>
+      </div>
+      <p id="lang-p">Other Languages you can use Google: <a href="#" id="lang-a">English</a></p>
+
+    </main>
+    <footer>
+        <div id="loca">Turkey</div>
+        <div id="last">
+            <div id="left">
+                <a href="#">Advertising</a>
+                <a href="#">Business</a>
+                <a href="#"How Search Works</a>
+            </div>   
+            <div id="right">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Settings</a>
+
+            </div>
+            
+        </div>
+    </footer>
+  </body>
 </html>
