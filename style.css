@@ -215,6 +215,9 @@ footer a {
         width:350px;
        
     }
+    input[type="search"] {
+        -webkit-appearance: none;
+     }
 }
 @media (max-width:560px) {
     #search {
@@ -224,4 +227,7 @@ footer a {
         width:260px;
         
     }
+    input[type="search"] {
+        -webkit-appearance: none;
+     }
 }
